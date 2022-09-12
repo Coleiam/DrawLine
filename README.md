@@ -11,7 +11,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 namespace TestConsole
 {
     class Program
@@ -26,13 +25,10 @@ namespace TestConsole
             float thick1 = Convert.ToSingle(Console.ReadLine());
             Console.WriteLine("X1 = ");
             float x1 = Convert.ToSingle(Console.ReadLine());
-
             Console.WriteLine("Y1 = ");
             float y1 = Convert.ToSingle(Console.ReadLine());
-
             Console.WriteLine("X2 = ");
             float x2 = Convert.ToSingle(Console.ReadLine());
-
             Console.WriteLine("Y2 = ");
             float y2 = Convert.ToSingle(Console.ReadLine());
             int width = 100;
@@ -96,5 +92,4 @@ namespace TestConsole
         public float Y { get; set; }
         public ConsoleColor Color { get; set; }
     }
-}
 }
